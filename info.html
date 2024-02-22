@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    body {
+      background-color: #000000; /* Crna boja za body */
+    }
+    .navbar {
+      background-color: red; /* Plava boja za navigacioni meni */
+    }
+    .navbar-brand {
+      color: #ffffff; /* Bela boja za logo teksta */
+    }
+    .navbar-nav {
+      justify-content: space-between; /* Rasporedi stavke ravnomerno */
+    }
+    .nav-item {
+      padding: 0;
+    }
+    .nav-link {
+      color: black; /* Bela boja za tekst stavki menija */
+    }
+    .search-container {
+      display: flex;
+      align-items: center;
+      margin-right: 15px;
+    }
+    .search-icon {
+      color: #ffffff;
+      margin-right: 5px;
+    }
+    .search-input {
+      border: none;
+      border-radius: 5px;
+      padding: 5px;
+      width: 150px;
+    }
+    .social-icons a {
+      margin: 0 5px; /* Dodao sam malo margine izmeðu ikonica */
+    }
+    .image-container {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px 0;
+    }
+    .image-container img {
+      width: 30%; /* Prilagodite velièinu slika prema potrebi */
+      border-radius: 10px; /* Dodao zaobljenost */
+      transition: transform 0.3s ease-in-out; /* Dodao efekat tranzicije */
+    }
+    .image-container img:hover {
+      transform: translateY(-10px); /* Podignuta slika kada predjete kursorom preko nje */
+    }
+    footer {
+      background-color: #001f3f; /* Tamno plava boja za footer */
+      color: #ffffff; /* Bela boja za tekst u footeru */
+      padding: 20px 0;
+      text-align: center;
+    }
+    .footer-icons a {
+      color: #ffffff;
+      margin: 0 10px;
+    }
+    .naslov1{
+      margin-left: 50px;
+      color: whitesmoke;
+    }
+  </style>
+  <title>Responsivan Navigacioni Meni</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#"><img src="slike/exit logo.png" width="75px"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">LineUp</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="info.html">Info</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div class="search-container">
+      <i class="fas fa-search search-icon"></i>
+      <input type="text" class="search-input" placeholder="Pretraži">
+    </div>
+    <div class="social-icons">
+      <a href="#" class="text-white"><i class="fab fa-facebook"></i></a>
+      <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="text-white"><i class="fab fa-discord"></i></a>
+      <a href="#" class="text-white"><i class="fab fa-vk"></i></a>
+      <a href="#" class="text-white"><i class="fab fa-spotify"></i></a>
+      <a href="#" class="text-white"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </div>
+</nav>
+<br>
+<br>
+<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <img src="slike/exit.info.jpg" alt="Opis slike" class="img-fluid">
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12"  style="background-color: #8A2BE2; padding: 10px;" >
+           <center> <h2 style="font-size: 25px; color: whitesmoke;">7 festivals</h2></center>
+            <br>
+        <center>  <h2 style="font-size: 25px; color: whitesmoke;">7 incredible locations</h2></center>  
+            <br>
+          <center> <h2 style="font-size: 25px; color: whitesmoke;">5 countries!</h2></center> 
+         <center> <p style="font-weight: bold; color: white;  ">EXIT Family includes seven events on seven different and amazing locations in five countries in the Balkan region: Sea Star Festival in Umag (Croatia), EXIT Festival in Novi Sad (Serbia), Sunland Festival in Primorsko (Bulgaria), Revolution Festival in Timisoara (Romania), Sea Dance Festival in Budva (Montenegro), Ada Divine Awakening in Ada Bojana (Montenegro) and No Sleep Festival in Belgrade (Serbia).</p></center>
+         <center> <p style="font-weight: bold; color: white;">Under the symbolical slogan of EXIT 2.0, EXIT team marked the beginning of its new era in 2021, announcing numerous innovations in all areas of its activities. The home of EXIT festival, the medieval Petrovaradin Fortress, was in the focus of the global music scene, with more than 40 stages and zones on EXIT hosting some of the biggest music stars of today! Moreover, several selected EXIT acts from the previous two decades, whose performances have earned them a firm place in the festival’s history, also made a stop at the Fortress.</p></center>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12"  style="background-color: white; padding: 10px;" >
+          <center> <h2 style="color: #8A2BE2; font-size: 30px;">EXIT Family Festivals</h2></center> 
+          <div class="row">
+            <div class="col-md-4">
+              <img src="slike/cr7.jpg" alt="Slika 1" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+              <img src="slike/exit logo.png" alt="Slika 2" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+              <img src="slike/blanc.jpg" alt="Slika 3" class="img-fluid">
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                  <img src="slike/offwhite.jpg" alt="Slika 1" class="img-fluid" style="margin-right: 10px;">
+                </div>
+                <div class="col-md-4">
+                  <img src="slike/kompas.jpg" alt="Slika 2" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                  <img src="slike/divinefest.png" alt="Slika 3" class="img-fluid">
+                </div>
+    </div>
+  </div>
+<footer>
+    <div class="container">
+      <div class="footer-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-discord"></i></a>
+        <a href="#"><i class="fab fa-vk"></i></a>
+        <a href="#"><i class="fab fa-spotify"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <!-- Dodajte ovde HTML za slike sponzora ako ih imate -->
+    </div>
+  </footer>
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  
+  </body>
+  </html>
